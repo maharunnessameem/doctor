@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Chevron Clinical Laboratory (PVT) Ltd",
+        "time": "7 AM - 10:30 PM (Every Saturday)",
+        "address": "12/12. O. R. Nizam Road. Chittagong",
+        "img": "https://i.ibb.co/pK57bnn/chevron.png"
+    },
+    {
+        "id": 2,
+        "name": "Delta Health Care, Chittagong Ltd",
+        "time": "7 AM - 10:30 PM (Every Sunday)",
+        "address": " 28 Katalganj, Panchlaish, Chittagong-4203",
+        "img": "https://i.ibb.co/jwCpdC1/delta.png"
+    },
+    {
+        "id": 3,
+        "name": "Centre for Specialized Care & Research",
+        "time": "7 AM - 10:30 PM (Every Monday)",
+        "address": "1675/A O.R. Nizam Rd, Chittagong",
+        "img": "https://i.ibb.co/5T4j8xZ/CSCR.png"
+    },
+    {
+        "id": 4,
+        "name": "Imperial Hospital Limited",
+        "time": "7 AM - 10:30 PM (Every Tuesday)",
+        "address": "Zakir Hossain Road, Pahartali, Chattogram-4202. Bangladesh",
+        "img": "https://i.ibb.co/0Dk1CHT/imperial.png"
+    },
+    {
+        "id": 5,
+        "name": "Labaid Diagnostics",
+        "time": "7 AM - 10:30 PM (Every Wednesday)",
+        "address": "Mehedibag, Chittagong, Bangladesh",
+        "img": "https://i.ibb.co/4Y85tQr/Labaid.png"
+    },
+    {
+        "id": 6,
+        "name": "Chattagram Maa-Shishu General Hospital",
+        "time": "7 AM - 10:30 PM (Every Thursday)",
+        "address": "Agrabad, Chittagong",
+        "img": "https://i.ibb.co/5FvPr9h/service3.png"
+    }
+]
