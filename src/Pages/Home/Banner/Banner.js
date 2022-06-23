@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/doctor3.png';
 import banner2 from '../../../images/banner/doctor2.png';
 import banner3 from '../../../images/banner/doctor1.png';
+import './Banner.css';
 
 const Banner = () => {
     const [index, setIndex] = useState(0);
@@ -11,7 +12,7 @@ const Banner = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div>
+        <div className='container banner'>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img
@@ -20,8 +21,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Mr. Doctor</h3>
+                        <p>Cardiologist</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -32,8 +33,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Mr. Doctor</h3>
+                        <p>Cardiologist</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -44,9 +45,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>Mr. Doctor</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Cardiologist
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

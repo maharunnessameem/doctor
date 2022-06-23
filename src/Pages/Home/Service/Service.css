@@ -1,6 +1,11 @@
 .service {
-    border: 1px solid lightgray;
-    border-radius: 10px;
+    border: 1px solid #043310;
+    border-radius: 20px;
     padding-bottom: 10px;
     text-align: center;
+    box-shadow: 10px 10px 40px #328046;
+}
+
+.btnColor {
+    background-color: #043310;
 }
