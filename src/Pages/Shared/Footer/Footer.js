@@ -4,8 +4,9 @@ import './Footer.css'
 const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
+
     return (
-        <footer className='text-center mt-5 footerDesign'>
+        <footer className='text-center mt-5 footerDesign' sticky='bottom'>
             <br />
             <p><small >copyright @ {year} </small></p>
         </footer>
