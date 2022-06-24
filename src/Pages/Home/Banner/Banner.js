@@ -20,7 +20,7 @@ const Banner = () => {
                         src={banner1}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='text-dark'>
                         <h3>Mr. Doctor</h3>
                         <p>Cardiologist</p>
                     </Carousel.Caption>
@@ -32,7 +32,7 @@ const Banner = () => {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className='text-dark'>
                         <h3>Mr. Doctor</h3>
                         <p>Cardiologist</p>
                     </Carousel.Caption>
@@ -44,7 +44,7 @@ const Banner = () => {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className='text-dark'>
                         <h3>Mr. Doctor</h3>
                         <p>
                             Cardiologist
