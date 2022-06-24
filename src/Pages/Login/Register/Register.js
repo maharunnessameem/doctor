@@ -46,7 +46,7 @@ const Register = () => {
         <div className='register-form'>
             <h2 style={{ textAlign: 'center' }}>Please Register</h2>
             <form onSubmit={handleRegister}>
-                <input type="text" name="name" id="" placeholder='Your Name' />
+                <input type="text" name="name" id="" placeholder='Your Name' required />
 
                 <input type="email" name="email" id="" placeholder='Email Address' required />
 
@@ -56,7 +56,7 @@ const Register = () => {
                 <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept Genius Car Terms and Conditions</label>
                 <input
                     disabled={!agree}
-                    className='w-50 mx-auto btn btn-primary mt-2'
+                    className='w-50 mx-auto btn btn-dark mt-2 btnColor'
                     type="submit"
                     value="Register" />
             </form>
