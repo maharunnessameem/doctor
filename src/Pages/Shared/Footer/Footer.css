@@ -3,9 +3,12 @@
     background-color: #043310;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    /* padding-left: 140px;
+    padding-right: 140px; */
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
 
 }
